@@ -6,6 +6,7 @@ import {
     HomeOutlined,
     UserOutlined
 } from '@ant-design/icons';
+import "../assets/css/SideMenu.css"
 
 const { Sider } = Layout;
 
@@ -20,17 +21,24 @@ class SideMenu extends React.Component {
     };
     render() {
         return (
+            <div>
             <Sider
                 collapsible
                 collapsed={this.state.collapsed}
                 onCollapse={this.onCollapse}
-                width="138px">
+                width="138px"
+                style={{
+                    height:"100vh",
+                    position: "fixed",
+                    backgroundColor: "black"
+                }}
+                >
                 <div className="logo"/>
                 <Menu
-                    className="side-color"
-                    theme="dark"
+                    className="side-menu"
                     defaultSelectedKeys={['1']}
-                    mode="inline">
+                    mode="inline"
+                    >
                     <Menu.Item key="1" icon={< HomeOutlined />}>
                         Home
                     </Menu.Item>
@@ -45,6 +53,7 @@ class SideMenu extends React.Component {
                     </Menu.Item>
                 </Menu>
             </Sider>
+            </div>
         )
     }
 }
