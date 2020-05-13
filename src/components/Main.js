@@ -11,7 +11,9 @@ class Main extends React.Component {
                 className="main"
                 style={{
                 paddingLeft: "50px",
-                paddingTop: "20px"
+                paddingTop: "20px",
+                paddingRight: "20px",
+                backgroundColor: "black"
             }}>
                 <Home/>
                 <About/>
