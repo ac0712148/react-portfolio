@@ -2,15 +2,15 @@
 
 .logo {
     height: 32px;
-    /* background: rgba(255, 255, 255, 0.2); */
     margin: 14px;
   }
   
-.site-layout .site-layout-background .side-color {
-    background: #fff;
-}
 
-[data-theme="dark"] .site-layout .site-layout-background {
-      background: #141414;
+.content {
+  background-color: black;
+  color: #fff;
+  margin-left: 80px;
+  padding-left: 58px;
+  height: 100vh;
 }
  
