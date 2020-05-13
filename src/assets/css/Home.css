@@ -1,0 +1,92 @@
+.home {
+    border-style: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 100vh;
+}
+
+.hometext {
+    padding-top: 40px;
+}
+
+.headline {
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+.subtext {
+    font-size: 22px;
+    font-weight: 400;
+    color: #ABB2B9;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+.arrow {
+    margin: 0 37% 25px;
+    width: 25%;
+}
+
+.test {
+    opacity: 0;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
+    margin: 0;
+    border-radius: 6px;
+}
+
+.text2 {
+    width: 90%;
+    margin: 0 5%;
+}
+.text3 {
+    width: 80%;
+    margin: 0 10%;
+}
+.text4 {
+    width: 70%;
+    margin: 0 15%;
+}
+.text5 {
+    width: 60%;
+    margin: 0 20%;
+}
+.text6 {
+    width: 50%;
+    margin: 0 25%;
+}
+.text7 {
+    width: 40%;
+    margin: 0 30%;
+}
+.text8 {
+    width: 30%;
+    margin: 0 35%;
+}
+.text9 {
+    width: 20%;
+    margin: 0 40%;
+}
+.text10 {
+    width: 10%;
+    margin: 0 45%;
+}
