@@ -12,7 +12,8 @@ class App extends React.Component {
     render() {
         return (
             <Layout style={{
-                minHeight: '100vh'
+                minHeight: '100vh',
+                backgroundColor: "black"
             }}>
                 <SideMenu/>
                 <Layout className="site-layout">
