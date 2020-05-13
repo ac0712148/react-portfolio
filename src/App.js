@@ -4,7 +4,7 @@ import './assets/css/App.css';
 import {Layout} from 'antd';
 import SideMenu from "./components/SideMenu"
 
-const {Content, Footer} = Layout;
+const {Content} = Layout;
 
 class App extends React.Component {
 
@@ -17,15 +17,13 @@ class App extends React.Component {
                 <Layout
                     className="site-layout"
                     style={{
-                    minHeight: '100vh'
+                    // minHeight: '100vh',
                 }}>
                     <Content >
-                        <div className="content" >Test Text Hello World</div>
+                        <div className="content">
+
+                        </div>
                     </Content>
-                    <Footer
-                        style={{
-                        textAlign: 'center'
-                    }}>fOOTER</Footer>
                 </Layout>
             </Layout>
         );
